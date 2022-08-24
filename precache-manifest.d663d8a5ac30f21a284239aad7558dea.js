@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9d8fe412220da2569980208d9fa1549",
+    "revision": "5057c361d756b0c72a724a07f2318bd2",
     "url": "/Reirasys/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Reirasys/static/css/2.700f80b7.chunk.css"
   },
   {
-    "revision": "12baf0111076314a9563",
+    "revision": "cf536c7d83a101592e5b",
     "url": "/Reirasys/static/css/main.4b5dfc6f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Reirasys/static/js/2.5ba0271b.chunk.js"
   },
   {
-    "revision": "12baf0111076314a9563",
-    "url": "/Reirasys/static/js/main.68c00627.chunk.js"
+    "revision": "cf536c7d83a101592e5b",
+    "url": "/Reirasys/static/js/main.fde9bae5.chunk.js"
   },
   {
     "revision": "d9e09a822743f8163fb4",
