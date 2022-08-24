@@ -18,19 +18,20 @@ const App = () => {
   return (
     <div className="App">
       <div className="page">
-        <BrowserRouter>
+        <BrowserRouter basename="Reirasys">
           <AuthProvider>
             <Header />
             <Routes>  
-              <Route path="/login" element={<Login />} />
-
-              <Route  path='/' element={<PrivateRoute />}> 
+              <Route/>
+                <Route path="/login" element={<Login />} />
+                <Route  path='/' element={<PrivateRoute />}> 
                 <Route path="/prform" element={<PrForm />} />
                 <Route path="/poform" element={<PoForm />} /> 
                 <Route path="/about" element={<About />} />
                 <Route path="/inbox" element={<Inbox />} />
+                <Route path="*" element={<PageNotFound />} />
               </Route>
-              <Route path="*" element={<PageNotFound />} />
+              {/* <Route path="*" element={<PageNotFound />} /> */}
             </Routes>
           </AuthProvider>
         </BrowserRouter> 
